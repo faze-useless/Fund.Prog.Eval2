@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 07:28:57 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjA4OzIwMjMtMTAtMDI7MDc6MTY6MDQgcC4gbS47MjgyOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjA4OzIwMjMtMTAtMDI7MDc6Mjg6NTcgcC4gbS47MTsyOTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calificacion" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingresa la calificaion: &quot;" newline="True"/>
+            <input variable="calificacion"/>
+            <if expression="calificacion &gt;= 70">
+                <then>
+                    <output expression="&quot;Aprob&#243; el papu Bv&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprobado chocopapu &gt;:'v&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
