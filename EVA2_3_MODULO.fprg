@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 07:46:43 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjMtMTAtMDk7MDc6MzY6MzcgcC4gbS47Mjg0Nw=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjMtMTAtMDk7MDc6NDY6NDMgcC4gbS47MTsyOTUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese un numero xd&quot;" newline="True"/>
+            <input variable="a1"/>
+            <declare name="residuo" type="Real" array="False" size=""/>
+            <assign variable="residuo" expression="a1 % 2"/>
+            <if expression="residuo == 0">
+                <then>
+                    <output expression="&quot;Efectivamente, es par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No es par :''v&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

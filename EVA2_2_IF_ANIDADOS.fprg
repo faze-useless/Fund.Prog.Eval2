@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 07:30:39 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjMtMTAtMDk7MDc6MDg6MTYgcC4gbS47Mjg0Mw=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjMtMTAtMDk7MDc6MzA6MzkgcC4gbS47MjsyOTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a1" type="Integer" array="False" size=""/>
+            <declare name="a2" type="Integer" array="False" size=""/>
+            <output expression="&quot;valor 1: &quot;" newline="True"/>
+            <input variable="a1"/>
+            <output expression="&quot;valor 2:&quot;" newline="True"/>
+            <input variable="a2"/>
+            <if expression="a1 &gt; a2">
+                <then>
+                    <output expression="&quot;El valor mayor es: &quot;" newline="False"/>
+                    <output expression="a1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a1 == a2">
+                        <then>
+                            <output expression="&quot;Son iguales xd&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;El valor mayor es: &quot;" newline="False"/>
+                            <output expression="a2" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
